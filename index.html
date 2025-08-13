@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ICON -->
+    <link rel="icon" href="assets/Logo.png" type="image/png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Todolist</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <img src="assets/Logo.png" alt="Logo" id="logo">
+        <h1>Todolist</h1>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+        <div class="card">
+            <!-- CARD HEADER-->
+            <div class="card-header">
+                <button class="btn btn-primary">Add Task</button>
+                <button class="btn btn-secondary">Add Section</button>
+            </div>
+            <!-- CARD BODY-->
+            <div class="card-body">
+                <!-- LIST -->
+                <ul>
+                    <li>
+                        <h3>&blacktriangledown; New Task</h3>
+                        <ul class="task-list">
+                            <li class="task-item">
+                                <span class="task-status task-done">&check;</span>
+                                <span class="task-text">Quarterly Newsletter</span>
+                                <span class="badge bg-blue">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>&blacktriangledown; Today</h3>
+                        <ul class="task-list">
+                            <li class="task-item">
+                                <span class="task-status task-undone">&cross;</span>
+                                <span class="task-text">Quarterly Newsletter</span>
+                                <span class="badge bg-purple">test</span>
+                        </ul>
+                    </li>
+                    </li>
+
+                    <li>
+                        <h3>&blacktriangledown; Upcoming</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

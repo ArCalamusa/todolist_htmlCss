@@ -1,0 +1,151 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+/* Utils */
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* ^ Colors */
+.bg-purple {
+    background-color: #9c72e4;
+}
+
+.bg-green {
+    background-color: #64c0a9;
+}
+
+.bg-orange {
+    background-color: #f29e33;
+}
+
+.bg-lightgreen {
+    background-color: #b0c926;
+}
+
+.bg-pink {
+    background-color: #d863a1;
+}
+
+.bg-blue {
+    background-color: #45abea;
+}
+
+/* ^ Header */
+header {
+    background-color: #fff;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+#logo {
+    height: 50px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline;
+    font-weight: 900px;
+    font-size: 28px;
+    vertical-align: middle;
+}
+
+/* & Main */
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card-header {
+    padding: 20px 30px;
+    border-bottom: 2px solid gray;
+}
+
+.card-body {
+    padding: 20px 30px;
+}
+
+/* * Buttons */
+.btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn.btn-primary {
+    color: #fff;
+    background-color: #1e90ff;
+    border-color: currentColor;
+}
+
+.btn.btn-secondary {
+    color: gray;
+    background-color: #fff;
+    border-color: currentColor;
+}
+
+/* ? Tasks */
+.task-item {
+    height: 40px;
+    line-height: 40px;
+}
+
+.task-status {
+    border: 1px solid currentColor;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* * task OK */
+.task-status.task-done {
+    color: green;
+}
+
+/* !task KO */
+.task-undone {
+    color: red;
+}
+
+.task-text {
+    vertical-align: middle;
+}
+
+/* ? Badge */
+.badge {
+    color: #fff;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
